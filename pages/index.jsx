@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import diasTofolli from '../public/images/dias_toffoli.jpg';
 import whatsApp from '../public/images/download.jpg';
+import products from '../public/images/products.jpg';
 
 export default function Home() {
   return (
@@ -28,6 +29,14 @@ export default function Home() {
               <a>
                 Contact
                 <img src={whatsApp} alt='' />
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/products'>
+              <a>
+                Products
+                <img src={products} alt='' />
               </a>
             </Link>
           </li>
